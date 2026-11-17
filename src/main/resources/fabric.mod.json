@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "antidonut",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "AntiDonut",
+  "description": "DonutSMP cheats for Meteor Client",
   "authors": [
-    "seasnail"
+    "kotyarakot"
   ],
   "contact": {
-    "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "sources": "https://github.com"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/antidonut/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "me.kotyarakot.antidonut.AntiDonut"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "antidonut.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25",
