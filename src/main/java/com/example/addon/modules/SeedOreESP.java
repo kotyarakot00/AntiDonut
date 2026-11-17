@@ -132,8 +132,8 @@ public class SeedOreESP extends Module {
         ChunkPos playerChunk = mc.player.chunkPosition();
         int r = chunkRadius.get();
 
-        for (int cx = playerChunk.x - r; cx <= playerChunk.x + r; cx++) {
-            for (int cz = playerChunk.z - r; cz <= playerChunk.z + r; cz++) {
+        for (int cx = playerChunk.x() - r; cx <= playerChunk.x() + r; cx++) {
+            for (int cz = playerChunk.z() - r; cz <= playerChunk.z() + r; cz++) {
                 ChunkPos cp = new ChunkPos(cx, cz);
                 if (!scannedChunks.contains(cp) && mc.level.hasChunk(cx, cz)) {
                     scannedChunks.add(cp);
