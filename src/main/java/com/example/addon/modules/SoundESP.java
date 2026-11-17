@@ -97,7 +97,7 @@ public class SoundESP extends Module {
 
         if (!sounds.get().isEmpty()) {
             boolean match = sounds.get().stream()
-                .anyMatch(s -> s.location().equals(event.sound.getLocation()));
+                .anyMatch(s -> s.location().equals(event.sound.getIdentifier()));
             if (!match) return;
         }
 
