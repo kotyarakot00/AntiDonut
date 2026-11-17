@@ -10,15 +10,15 @@
   "contact": {
     "sources": "https://github.com"
   },
-  "icon": "assets/antidonut/icon.png",
+  "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "me.kotyarakot.antidonut.AntiDonut"
+      "com.example.addon.AntiDonut"
     ]
   },
   "mixins": [
-    "antidonut.mixins.json"
+    "addon-template.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25",
