@@ -1,5 +1,6 @@
 package com.example.addon;
 
+import com.example.addon.modules.SeedOreESP;
 import com.example.addon.modules.SoundESP;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
@@ -20,6 +21,7 @@ public class AntiDonut extends MeteorAddon {
 
         // Modules
         Modules.get().add(new SoundESP());
+        Modules.get().add(new SeedOreESP());
     }
 
     @Override
